@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLA Website</title>
+    <link rel="stylesheet" href="citationstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="main-section">
+        <h1>MLA Website</h1>
+
+        <!-- Webpage Author -->
+        <div id="authorContainer">
+          <label id = "author-header-row">Website Author</label>
+          <button type="button" onclick="addAuthorRow()">+ Add Author</button>
+        </div>
+        
+        <!-- Website Name -->
+        <div class="form-group">
+          <label for="websiteName">Website Name</label>
+          <input
+            type="text"
+            id="websiteName"
+            placeholder="Enter website name"
+          />
+        </div>
+        <!-- Title -->
+        <div class="form-group">
+          <label for="title">Title of Article</label>
+          <input type="text" id="title" placeholder="Enter article title" />
+        </div>
+        <!-- Date Published -->
+        <div class="form-group">
+          <label for="datePublished">Date Published</label>
+          <input type="date" id="datePublished" placeholder="Select Date" />
+        </div>
+        <!-- URL -->
+        <div class="form-group">
+          <label for="url">URL</label>
+          <input type="url" id="url" placeholder="Enter Website URL" />
+        </div>
+        <!-- Date Accessed -->
+        <div class="form-group">
+          <label for="dateAccessed">Date Accessed</label>
+          <input type="date" id="dateAccessed" placeholder="Select Date" />
+        </div>
+        <!-- submit btn -->
+        <button type="button" id="get-citation-btn" onclick="generateCitation()">Get Citation</button>
+        <!-- Preview -->
+        <div class="preview">
+          <label>Citation Preview</label>
+          <div id="citationPreview">
+              Your generated citation will appear here.
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="citationScript.js"></script>
+  </body>
+</html>
