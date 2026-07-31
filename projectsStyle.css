@@ -1,0 +1,175 @@
+body {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+/* Navigation Bar */
+
+#home {
+  background-color: #7600bc;
+  padding-bottom: 1cm;
+  margin-left: -1cm;
+  margin-right: -1cm;
+  margin-top: -1cm;
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  height: 5mm;
+}
+
+.topmenu {
+  color: lightgray;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.topmenu:hover {
+  color: white;
+  /* Add the styles here */
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.topdiv {
+  float: right;
+  padding-right: 1cm;
+}
+
+.profile_name {
+  float: left;
+  padding-left: 2cm;
+  /* Add the styles here */
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.profile_name .contact_info {
+  font-size: 15px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact_info img {
+  width: 25px;
+  margin-right: 10px;
+  float: left;
+}
+
+/* Titles */
+
+h2 {
+  text-align: justify;
+  font-size: 50px;
+  text-align: center;
+  float: left;
+  color: #7600bc;
+  margin: 30px;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 1px solid lightgray;
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.introduction {
+  text-align: justify;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  animation-duration: 5s;
+  position: relative;
+}
+
+/* Used in the About Me sections */
+
+.container {
+  display: flex;
+}
+
+/* About Me */
+
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+#about-me h1 {
+  font-size: 65px;
+  margin-top: 90px;
+  color: #7600bc;
+  margin-left: 1cm;
+}
+
+#about-me p {
+  font-size: 25px;
+  color: rgb(128, 128, 128);
+  margin-top: 1cm;
+  margin-left: 1cm;
+}
+
+.profile_image {
+  width: 550px;
+  height: fit-content;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+/*Interest*/
+
+#interest p {
+  text-align: block;
+  font-size: 25px;
+  color: rgb(128, 128, 128);
+  margin-left: 30px;
+
+}
+
+.video-container{
+  display: flex;       
+  gap: 15px;           /* Adds space between the images */
+}
+
+.video-container video {
+  width: 50%;          /* Forces two images to fill the row evenly */
+  height: auto;        /* Keeps the original aspect ratio */
+  margin: 5px;
+}
+
+.interests-arts{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Individual card styling: forces image on top, caption directly below */
+.media-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+}
+
+.media-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.media-card figcaption {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
+
