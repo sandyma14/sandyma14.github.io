@@ -104,7 +104,6 @@ function generateCitation() {
     }
 }
 
-// --- Helper Functions (Directly Ported from Java) ---
 
 // Capitalizes the first letter of a name
 function capitalize(word) {
