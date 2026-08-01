@@ -80,16 +80,7 @@ hr {
   margin-bottom: 20px;
 }
 
-.introduction {
-  text-align: justify;
-  font-size: 30px;
-  text-align: center;
-  float: left;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  animation-duration: 5s;
-  position: relative;
-}
+
 
 /* Used in the About Me sections */
 
@@ -97,37 +88,7 @@ hr {
   display: flex;
 }
 
-/* About Me */
-
-.about-me {
-  display: flex;
-  align-items: center;
-}
-
-#about-me h1 {
-  font-size: 65px;
-  margin-top: 90px;
-  color: #7600bc;
-  margin-left: 1cm;
-}
-
-#about-me p {
-  font-size: 25px;
-  color: rgb(128, 128, 128);
-  margin-top: 1cm;
-  margin-left: 1cm;
-}
-
-.profile_image {
-  width: 550px;
-  height: fit-content;
-  vertical-align: middle;
-  margin: 5px;
-}
-
-/*Interest*/
-
-#interest p {
+#projects p {
   text-align: block;
   font-size: 25px;
   color: rgb(128, 128, 128);
@@ -135,24 +96,28 @@ hr {
 
 }
 
-.video-container{
-  display: flex;       
-  gap: 15px;           /* Adds space between the images */
-}
-
-.video-container video {
-  width: 50%;          /* Forces two images to fill the row evenly */
-  height: auto;        /* Keeps the original aspect ratio */
-  margin: 5px;
-}
-
-.interests-arts{
+.row{
   display: flex;
   gap: 20px;
   margin-bottom: 30px;
 }
 
 /* Individual card styling: forces image on top, caption directly below */
+.link{
+  color: #7600bc;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover {
+  color: #a303ff;
+  /* Add the styles here */
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
 .media-card {
   display: flex;
   flex-direction: column;
@@ -172,4 +137,18 @@ hr {
   font-size: 1.2rem;
   color: #4a4a4a;
 }
+.video-container{
+  display: flex;       
+  gap: 15px;           /* Adds space between the images */
+}
 
+.video-container video {
+  width: 50%;          /* Forces two images to fill the row evenly */
+  height: auto;        /* Keeps the original aspect ratio */
+  margin: 5px;
+}
+
+.video-caption {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
