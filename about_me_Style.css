@@ -146,6 +146,12 @@ hr {
   margin: 5px;
 }
 
+.video-caption {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
+
 .interests-arts{
   display: flex;
   gap: 20px;
@@ -172,6 +178,7 @@ hr {
   font-size: 1.2rem;
   color: #4a4a4a;
 }
+
 
 /* Bottom Navigation */
 #navigation {
